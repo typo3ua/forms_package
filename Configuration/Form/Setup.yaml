@@ -1,0 +1,20 @@
+TYPO3:
+    CMS:
+        Form:
+            persistenceManager:
+                allowedExtensionPaths:
+                    1010: EXT:forms_package/Resources/Private/Forms/
+            prototypes:
+                standard:
+                    formElementsDefinition:
+                        Form:
+                            renderingOptions:
+                                translation:
+                                    translationFile:
+                                        1010: 'EXT:forms_package/Resources/Private/Language/locallang.xlf'
+                                layoutRootPaths:
+                                    1020: 'EXT:forms_package/Resources/Private/Layouts/Form/'
+                                templateRootPaths:
+                                    1020: 'EXT:forms_package/Resources/Private/Templates/Form/'
+                                partialRootPaths:
+                                    1020: 'EXT:forms_package/Resources/Private/Partials/Form/'
