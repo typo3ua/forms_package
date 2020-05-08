@@ -6,7 +6,7 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Forms Package',
     'description' => 'Package of different forms',
-    'category' => 'templates',
+    'category' => 'Frontend Plugins',
     'constraints' => [
         'depends' => [
             'bootstrap_package' => '10.0.0-11.0.99',
@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = [
     ],
     'autoload' => [
         'psr-4' => [
-            'FormsPackage\\FormsPackage\\' => 'Classes',
+            'T3UA\\FormsPackage\\' => 'Classes',
         ],
     ],
     'state' => 'stable',
@@ -25,6 +25,5 @@ $EM_CONF[$_EXTKEY] = [
     'clearCacheOnLoad' => 1,
     'author' => 'Vasyl Mosiychuk',
     'author_email' => 'vasyl@typo3.net.ua',
-    'author_company' => 'Forms Package',
     'version' => '1.0.0',
 ];
