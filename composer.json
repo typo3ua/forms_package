@@ -1,0 +1,16 @@
+{
+    "name": "forms-package/forms-package",
+    "type": "typo3-cms-extension",
+    "description": "Package of different forms",
+    "homepage": "http://www.vasyl.net",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "bk2k/bootstrap-package": "^10.0 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FormsPackage\\FormsPackage\\": "Classes/"
+        }
+    }
+}

@@ -1,2 +1,4 @@
-# forms_package
-Package of different forms for TYPO3 CMS
+Sitepackage for the project "Forms Package"
+==============================================================
+
+Add some explanation here.
