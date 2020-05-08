@@ -58,3 +58,9 @@ plugin.bootstrap_package.settings.scss {
     primary = #eb3e4a
     secondary = #013859
 }
+
+#############################################################
+#### EXTENSIONS                                          ####
+#### Manual inclusion to keep control over loading order ####
+#############################################################>
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:forms_package/Configuration/TypoScript/Extension/Form/constants.typoscript" condition="extension.isLoaded('form') == 1">
