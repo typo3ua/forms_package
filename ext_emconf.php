@@ -5,7 +5,7 @@
  */
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Forms Package',
-    'description' => 'Package of different forms',
+    'description' => 'Package of different forms for TYPO3 CNS',
     'category' => 'Frontend Plugins',
     'constraints' => [
         'depends' => [
