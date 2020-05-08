@@ -9,6 +9,7 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'Frontend Plugins',
     'constraints' => [
         'depends' => [
+            'typo3' => '9.5.16-10.4.99',
             'bootstrap_package' => '10.0.0-11.0.99',
             'form' => '9.5.16-10.4.99',
         ],
