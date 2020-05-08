@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "FormsPackage\\FormsPackage\\": "Classes/"
+            "T3UA\\FormsPackage\\": "Classes/"
         }
     }
 }
