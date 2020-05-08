@@ -9,7 +9,7 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'Frontend Plugins',
     'constraints' => [
         'depends' => [
-            'form' => '9.5.16-9.5.99',
+            'form' => '9.5.16-10.4.99',
         ],
         'conflicts' => [
         ],
